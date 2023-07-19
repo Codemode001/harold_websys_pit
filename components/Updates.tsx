@@ -52,7 +52,7 @@ const projects2 = [
   {
     image:
       "https://res.cloudinary.com/dhhamkkue/image/upload/v1689665471/projects/Screenshot_2023-07-18_151316_kdf27d.png",
-    title: "Car collection page to display favorite cars",
+    title: "Car collection page to display orite cars",
   },
 ];
 
