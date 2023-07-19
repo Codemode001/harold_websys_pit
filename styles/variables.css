@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Phudu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Phudu:wght@500&family=Poppins&display=swap");
+
+:root {
+  /* palletes */
+  --light-text: #24afff;
+  --hover-icons: #d1b075;
+  --light-gray-background: #f9f8f9;
+  --dark-bg: #222831;
+  --ustp-bg: #201c54;
+  --button-bg: #0aa5ff;
+  --symph-text: #0aa5ff;
+  --symph-dark-text: #282828;
+  --symph-light-text: #6b656b;
+  --ustp-yellow: #dda532;
+
+  /* fonts */
+
+  --cursive-font: "Shadows Into Light", cursive;
+  --fat-font: "Lilita One", cursive;
+  --prof-font: "Montserrat", sans-serif;
+  --formal-font: "Inter", sans-serif;
+  --semi-formal: "Phudu", cursive;
+  --casual-font: "Poppins", sans-serif;
+}
