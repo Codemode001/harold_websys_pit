@@ -1,4 +1,6 @@
 "use client";
+import styled from "@emotion/styled";
+
 import Header from "@/components/Header";
 import HeaderNav from "@/components/HeaderNav";
 import Hero from "@/components/Hero";
@@ -10,7 +12,7 @@ import ProfessionalSummary from "@/components/ProfessionalSummary";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{ position: "relative" }}>
       <Header />
       <HeaderNav />
       <Hero />
@@ -19,6 +21,27 @@ export default function Home() {
       <Media />
       <PresidentCorner />
       <ProfessionalSummary />
+      <StayBottom>
+        <a href="https://haroldcreative.netlify.app/" target="_blank">
+          View My Existing Portfolio
+        </a>
+      </StayBottom>
     </main>
   );
 }
+
+const StayBottom = styled.button`
+  background-color: var(--ustp-bg);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ustp-yellow);
+`;

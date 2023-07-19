@@ -41,7 +41,7 @@ const Container = styled.div`
 `;
 
 const Main = styled.div`
-  min-height: 100vh;
+  height: 210rem;
   display: flex;
   justify-content: center;
 `;
