@@ -1,5 +1,6 @@
 "use client";
 import styled from "@emotion/styled";
+import { Fade } from "react-awesome-reveal";
 
 import Header from "@/components/Header";
 import HeaderNav from "@/components/HeaderNav";
@@ -20,7 +21,9 @@ export default function Home() {
       <About />
       <Updates />
       <Media />
-      <PresidentCorner />
+      <Fade>
+        <PresidentCorner />
+      </Fade>
       <ProfessionalSummary />
       <Survey />
       <StayBottom>

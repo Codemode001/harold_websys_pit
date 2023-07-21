@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
@@ -30,7 +31,9 @@ const About = () => {
           <LearnMore>Learn more about me</LearnMore>
         </div>
         <div style={{ margin: "3rem 0 3rem 0" }}>
-          <AboutImage src="drum-photo.jpg" />
+          <Fade className="w-full">
+            <AboutImage src="drum-photo.jpg" />
+          </Fade>
         </div>
       </Container>
     </Main>
