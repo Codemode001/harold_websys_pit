@@ -11,6 +11,7 @@ import Media from "@/components/Media";
 import PresidentCorner from "@/components/PresidentCorner";
 import ProfessionalSummary from "@/components/ProfessionalSummary";
 import Survey from "@/components/Survey";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       </Fade>
       <ProfessionalSummary />
       <Survey />
+      <Footer />
       <StayBottom>
         <a href="https://haroldcreative.netlify.app/" target="_blank">
           View My Existing Portfolio

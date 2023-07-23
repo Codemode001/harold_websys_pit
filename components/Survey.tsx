@@ -79,5 +79,4 @@ const Main = styled.div`
   height: 15rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 5rem;
 `;
